@@ -1,0 +1,1804 @@
+\@charset   "utf-8  ";
+	/* CSS Document */
+	/*-----------login page styles----------*/ tr {
+	padding-bottom: 1em;
+}
+
+.logo {
+	margin: 70px auto 0;
+	width: 243px;
+}
+
+.login {
+	float: left;
+	margin-top: 50px;
+}
+
+#loginPage {
+	background: #59C0EB;
+}
+
+.leftContent {
+	background: url(../images/shadow.png) no-repeat right bottom;
+	padding-bottom: 21px;
+	position: relative;
+}
+
+.leftContent h1 {
+	float: left;
+	border-bottom: 1px solid #d8d9dc;
+	width: 100%;
+	padding-bottom: 15px;
+	margin-top: 30px;
+}
+
+.introduction {
+	float: left;
+	padding: 0 25px;
+	min-height: 275px;
+}
+
+.introduction p {
+	float: left;
+	margin-top: 18px;
+	line-height: 21px;
+}
+
+.copyRight {
+	float: left;
+	font-size: 12px;
+	color: #747474;
+	background: #f3f3f3;
+	margin: 0;
+	padding: 30px;
+	width: 100%;
+	border-radius: 0 0 0 5px;
+	-webkit-border-radius: 0 0 0 5px;
+	-ms-border-radius: 0 0 0 5px;
+	line-height: 16px;
+}
+
+.innerContent {
+	float: left;
+	background: #fff;
+	border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
+	-ms-border-radius: 5px 0 0 5px;
+}
+
+.signIn {
+	float: left;
+	background: #121317;
+	padding: 20px 20px 20px;
+	width: 290px;
+}
+
+.signIn #errorAreaContainer {
+	float: left;
+	width: 100%;
+}
+
+#errorArea {
+	float: left;
+	position: absolute;
+	font-weight: bold;
+	color: #F99E00;
+	top: 0;
+	left: 0;
+}
+
+.signIn h2 {
+	float: left;
+	color: #656668;
+}
+
+.signIn label {
+	color: #4d4d4d;
+}
+
+.signinIcon {
+	float: right;
+	width: 58px;
+	height: 58px;
+	background: #59c0eb url(../images/symbol.png) no-repeat center;
+}
+
+.signinForm li {
+	float: left;
+	list-style: none;
+	padding-bottom: 15px;
+}
+
+.signinForm li:first-child {
+	padding-top: 18px;
+}
+
+.textBox {
+	border: 1px solid #3e3f44;
+	background: #1a1c23;
+	height: 50px;
+	width: 250px;
+}
+
+.signinForm {
+	float: left;
+	margin: 15px 0 0 0;
+	position: relative;
+}
+
+.textBox span {
+	float: left;
+	border-right: 1px solid #3e3f44;
+	padding: 14px 10px;
+	width: 36px;
+	height: 48px;
+}
+
+.textBox input[type="text"],.textBox input[type="password"] {
+	float: left;
+	height: 48px;
+	background: #232429;
+	width: 212px;
+	color: #9ea0a7;
+	padding-left: 10px;
+	margin: 0;
+	line-height: 32px;
+}
+
+#loginPage .textBox input[type="text"],#loginPage .textBox input[type="password"]
+	{
+	border: 0 none;
+}
+
+.signinButton {
+	float: left;
+	width: 250px;
+	background: #f99e00;
+	color: #000;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+	padding: 14px 0;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+}
+
+.signinButton:hover {
+	color: #fff;
+}
+
+.signinForm .forgotPassword {
+	line-height: 16px;
+	padding-bottom: 15px;
+}
+
+.forgotPassword a {
+	color: #9ea0a7;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.forgotPassword a:hover {
+	color: #fff;
+}
+
+.signinForm .changePassword {
+	line-height: 16px;
+	padding-bottom: 15px;
+}
+
+.changePassword a {
+	color: #9ea0a7;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.changePassword a:hover {
+	color: #fff;
+}
+
+.topShade,.bottomShade {
+	float: right;
+	width: 19px;
+	background: url(../images/shade.png) no-repeat;
+	height: 20px;
+}
+
+.bottomShade {
+	background-position: 0 -52px;
+	bottom: 0;
+	position: absolute;
+	right: 0;
+}
+
+.userName {
+	max-width: inherit;
+}
+/*-----------login page styles----------*/
+
+/*-----------user management page styles------------*/
+.header {
+	background: #009ee0;
+	min-height: 63px;
+}
+
+header {
+	background: #009ee0;
+	min-height: 63px;
+}
+
+.userLogo {
+	float: left;
+	margin-top: 8px;
+}
+
+.welcomeAdmin {
+	float: right;
+	margin-top: 20px;
+	line-height: 22px;
+	position: relative;
+}
+
+.welcomeText {
+	float: left;
+	background: url(../images/arrow.png) no-repeat right center;
+	font-size: 13px;
+	padding: 0 13px 0 5px;
+	margin-right: 5px;
+	line-height: 26px;
+	border-left: 1px solid #34BBEE;
+}
+
+.userBg {
+	float: left;
+	width: 24px;
+	background: url(../images/userBg.png) repeat-x;
+	text-align: center;
+	border-right: 1px solid #038CBF;
+}
+
+.userBg img {
+	margin-top: 5px;
+}
+
+.container {
+	float: left;
+	width: 100%;
+	background: #333333;
+	min-height: 45px;
+}
+
+#navigation ul {
+	float: left;
+	margin: 0;
+}
+
+#navigation ul li {
+	float: left;
+	list-style: none;
+	cursor: pointer;
+}
+
+#navigation ul li a {
+	float: left;
+	color: #f7f7f7;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 0 15px;
+	line-height: 44px;
+}
+
+#navigation ul li.active a,#navigation ul li:hover {
+	background: #4a4a4a;
+}
+
+#section {
+	float: left;
+	width: 100%;
+}
+
+.userPage h3 {
+	float: left;
+	margin: 10px 0;
+	width: 100%;
+}
+
+.action {
+	float: left;
+	width: 100%;
+	border-radius: 6px 6px 0 0;
+	-webkit-border-radius: 6px 6px 0 0;
+	-ms-border-radius: 6px 6px 0 0;
+	background: rgb(76, 187, 233); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background:
+		url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjYmJlOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwZWEzZTIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, rgba(76, 187, 233, 1) 0%,
+		rgba(14, 163, 226, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(76,
+		187, 233, 1)), color-stop(100%, rgba(14, 163, 226, 1)));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(76, 187, 233, 1) 0%,
+		rgba(14, 163, 226, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(76, 187, 233, 1) 0%,
+		rgba(14, 163, 226, 1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(76, 187, 233, 1) 0%,
+		rgba(14, 163, 226, 1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(76, 187, 233, 1) 0%,
+		rgba(14, 163, 226, 1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(   startColorstr='#4cbbe9',
+		endColorstr='#0ea3e2', GradientType=0); /* IE6-8 */
+}
+
+.action ul li {
+	float: left;
+	list-style: none;
+	padding: 10px 0 6px;
+	text-align: center;
+	width: 60px;
+	border-right: 1px solid #0480b4;
+	border-left: 1px solid #20b3f1;
+}
+
+.action ul li:first-child {
+	border-left: none;
+}
+
+.action ul li span {
+	color: #1C1B1B;
+	float: left;
+	font-size: 11px;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.action ul {
+	float: left;
+	margin-bottom: 0;
+}
+
+.search {
+	float: right;
+	margin: 10px 13px 0 0;
+}
+
+.search .button {
+	width: 66px;
+}
+
+.search input[type="text"] {
+	float: left;
+	width: 280px;
+	height:30px;
+	margin: 0 5px 0;
+	border: 1px solid #056a94;
+}
+
+.search input[type="button"] {
+    height: 30px;
+    width: 70px;
+}
+.management {
+	float: left;
+	width: 100%;
+	border: 1px solid #cccccc;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-ms-border-radius: 6px;
+}
+
+#managementTable {
+	border-bottom: 1px solid #CCCCCC;
+	float: left;
+	width: 100%;
+	font-size: 12px;
+}
+
+#managementTable th a {
+	display: block;
+}
+
+#managementTable select {
+	margin: 0;
+}
+
+#managementTable thead tr {
+	background: url(../images/head-bg.jpg) repeat-x;
+}
+
+#managementTable th.sortable {
+	background: url("../images/sorting.png") no-repeat 94% 10px;
+}
+
+#managementTable th.sortable.order1 {
+	background: url("../images/sorting-dec.png") no-repeat 94% 10px;
+}
+
+#managementTable th.sortable.order2 {
+	background: url("../images/sorting-asc.png") no-repeat 94% 10px;
+}
+
+#managementTable th {
+	font-weight: bold; 
+	border-right: 1px solid #d7d7d7;
+	padding: 0 0 0 8px;
+	text-align: left;
+	line-height: 32px;
+	color: #444444;
+	table-layout: fixed;
+	word-wrap: break-word;
+}
+
+#managementTable td {
+	border-left: 1px solid #d7d7d7;
+	padding: 8px 0 8px 8px;
+	/* color:#444444; */
+	table-layout: fixed;
+	/* word-break: break-all; */
+}
+
+#managementTable td:first-child {
+	border-left: 0 none;
+}
+
+#managementTable td span.Active,#managementTable td span.Inactive {
+	display: block;
+	width: 16px;
+	height: 16px;
+	text-indent: -999em;
+	margin: 0 auto;
+}
+
+#managementTable td span.Active {
+	background: url(../images/active.png) no-repeat center;
+}
+
+#managementTable td span.Inactive {
+	background: url(../images/inactive.png) no-repeat center;
+}
+
+#managementTable td span.pdf {
+	display: block;
+	width: 16px;
+	height: 16px;
+	text-indent: -999em;
+	margin: 0 auto;
+	background: url(../images/pdf_download.png) no-repeat center;
+}
+
+.odd {
+	background: #fff;
+}
+
+.even {
+	background: #f9f9f9;
+}
+
+.pagination {
+	float: right;
+	font-size: 13px;
+	/* color: #968B7D; */
+	padding: 5px 0;
+	margin: 0 1%;
+	width: 98%;
+}
+
+.pagination select {
+	display: inline;
+	margin: 0;
+}
+
+.pageNumber {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
+	display: inline-block;
+	height: 18px;
+	text-align: center;
+	width: 27px;
+}
+
+.previous,.next {
+	background: url(../images/pagination.png) no-repeat;
+	width: 13px;
+	height: 13px;
+	float: left;
+	margin: 3px 2px;
+}
+
+.next {
+	background-position: -14px 0;
+}
+
+.pagination div,.pagination span {
+	float: left;
+}
+
+#footer {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 56px;
+}
+
+.maincontainer {
+	width: 100%;
+}
+
+.leftContainer {
+	width: 50%;
+	float: left;
+}
+
+.rightContainer {
+	width: 50%;
+	float: right;
+}
+
+.leftContainer table,.rightContainer table {
+	width: 82%;
+}
+
+.inputField {
+	width: 176px;
+}
+
+.buttonUi {
+	width: 15px;
+}
+
+#footer p {
+	float: left;
+	width: 100%;
+	color: #747474;
+	font-size: 12px;
+	padding: 30px 0;
+}
+
+tr.selected {
+	background-color: black;
+	color: white;
+}
+
+#fistNameRequired,#lastNameRequired,#emailRequired,#fistNameEditRequired,#lastNameEditRequired,#emailEditRequired,#fileuploadNameFieldRequired,#tridFeatureRequired,#tridFeatureRequiredEdit
+	{
+	display: none;
+	color: red;
+}
+
+#categoryFieldRequired,#symbolFieldRequired,#symbolNameRequired,#currencyFieldRequired{
+	display: none;
+	color: red;
+}
+
+#categoryEditFieldRequired,#symbolEditFieldRequired,#symbolEditNameRequired,#currencyEditFieldRequired{
+	display: none;
+	color: red;
+}
+/*------------- Change/Forget password ----------------------*/
+.change-password {
+	background: #fff;
+	margin: 35px auto 0;
+	width: 35%;
+	border-radius: 5px;
+	padding-bottom: 20px;
+}
+
+.change-password  h2 {
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+	background: #f3f3f3;
+	border-radius: 5px 5px 0 0;
+	font-size: 18px;
+}
+
+.change-password ul {
+	width: 72%;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+.change-password ul li {
+	list-style: none;
+	width: 100%;
+	display: inline-block;
+}
+
+.change-password .signinButton {
+	float: none;
+	width: 100%;
+}
+
+.change-password input[type=password] {
+	border: solid 1px #bbb;
+}
+
+.change-password label {
+	margin-bottom: 10px;
+}
+
+#forgetPasswordError {
+	color: #FF0000;
+	display: none;
+	padding-bottom: 10px;
+}
+/*------------- Forget password ----------------------*/
+/*------------- Common pages ----------------------*/
+.common-page {
+	background: #fff;
+	margin: 35px auto 0;
+	width: 60%;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+}
+
+.common-page .signinButton {
+	float: none;
+}
+
+.common-page p {
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+.common-page span {
+	background-image: url('../images/message-icons.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+	width: 72px;
+	height: 72px;
+	display: block;
+	margin: 0 auto 20px;
+}
+
+.common-page .error404 span {
+	background-position: 0px 0px;
+}
+
+.common-page .error span {
+	background-position: 0px -72px;
+}
+
+.common-page .info span {
+	background-position: 0px -144px;
+}
+
+.common-page .success span {
+	background-position: 0px -216px;
+}
+
+.common-page .warning span {
+	background-position: 0px -288px;
+}
+/*------------User info ------*/
+.welcomeAdmin .user-info {
+	position: absolute;
+	background: none repeat scroll 0 0 #FFFFFF;
+	list-style: none outside none;
+	position: absolute;
+	top: 32px;
+	border-radius: 5px;
+	border: solid 1px #ccc;
+	display: none;
+	right: 0;
+	top: 32px;
+	width: 145px;
+	z-index: 999;
+}
+.welcomeAdmin .menu-info{
+	position: absolute;
+	background: none repeat scroll 0 0 #FFFFFF;
+	list-style: none outside none;
+	position: absolute;
+	top: 32px;
+	border-radius: 5px;
+	border: solid 1px #ccc;
+	display: none;
+	right: 0;
+	top: 32px;
+	width: 145px;
+	z-index: 999;
+}
+.welcomeAdmin .user-info:after {
+	border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #FFf;
+	border-style: solid;
+	border-width: 0 8px 6px;
+	content: "";
+	right: 5%;
+	position: absolute;
+	top: -6px;
+}
+
+.welcomeAdmin .user-info li {
+	border-top: 1px solid #CCCCCC;
+	font-size: 12px;
+	padding: 3px 20px;
+}
+
+.welcomeAdmin .user-info li a {
+	display: block;
+}
+
+.welcomeAdmin .user-info li:first-child {
+	border-top: 0 none;
+}
+
+.welcomeAdmin .user-info.show {
+	display: block;
+}
+
+/*-----------user management page styles---------------*/
+.ui-widget-content {
+	background: #fff;
+}
+
+.ui-widget-overlay {
+	background: none repeat scroll 50% 50% #000000;
+	opacity: 0.6;
+}
+
+#formErrorMsg {
+	color: #FF0000;
+	display: none;
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+.userFormBtn {
+	padding-top: 13%;
+	text-align: right;
+	width: 84%;
+}
+.browseBtn {
+	padding-top: 10%; 
+	padding-left: 25%; 
+	text-align: left;
+	width: 85%;
+}
+.userForm table td:first-child {
+	padding-right: 50px;
+}
+.userEditForm table td:first-child {
+	padding-right: 17px;
+}
+#changePassword table {
+	margin: 20px auto 0;
+}
+
+#changePassword table td {
+	/* padding: 10px 3px 10px; */
+	padding-bottom: 10px;
+	padding-left: 3px;
+	padding-right: 12px;
+	padding-top: 10px;
+}
+
+#changePassword table td input,#changePassword form {
+	margin: 0;
+}
+
+.ui-dialog .ui-dialog-content {
+	padding: 0.5em 5px;
+}
+/* For pagination in userList.jsp */
+.pagination-pagelinks {
+	text-align: right;
+	float: right;
+	margin-top: 5px;
+}
+
+.pagination-count {
+	padding-right: 530px;
+}
+
+.pagination-pagelinks a,.pagination-pagelinks span,.pagination-pagelinks input[type=text]
+	{
+	float: left;
+	margin: 0 2px;
+}
+
+.pagination-pagelinks input[type=text] {
+	border: solid 1px #999;
+	margin-top: -1px;
+	width: 26px;
+	padding: 2px;
+	font-size: 11px;
+	text-align: center;
+}
+
+.exportlinks {
+	border: 2px none;
+	padding: 0 0 25px 25px;
+}
+
+.centeraligned {
+	text-align: center;
+}
+/* pagination end here */
+/*forgot form */
+#forgetPassword form {
+	margin: 0;
+}
+
+.error-msg {
+	color: red;
+}
+/* *********************** Coming Soon start ***************************** */
+.comingSoon {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.comingSoonLabel {
+	font-family: arial;
+	font-size: 24px;
+	margin: 10% 0 2%;
+	text-align: center;
+	color: #000;
+}
+
+/* *********************** Coming Soon end ***************************** */
+.highlight {
+	background-color: #E0ECF8;
+}
+
+.menu_header {
+	background: none repeat scroll 0 0 #333333;
+}
+
+/**/
+.leftContainer table tr {
+	padding-bottom: 0;
+}
+
+.leftContainer table td input[type=text],.leftContainer table td select,.leftContainer table td textarea
+	{
+	margin-bottom: 0;
+	margin-top: 10px;
+	width: 176px;
+}
+
+/* *********************** Template start  here***************************** */
+.templateDiv {
+	float: left;
+	width: 100%;
+	background: rgb(76, 187, 233); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background:
+		url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjYmJlOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwZWEzZTIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, rgba(76, 187, 233, 1) 0%,
+		rgba(14, 163, 226, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(76,
+		187, 233, 1)), color-stop(100%, rgba(14, 163, 226, 1)));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(76, 187, 233, 1) 0%,
+		rgba(14, 163, 226, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(76, 187, 233, 1) 0%,
+		rgba(14, 163, 226, 1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(76, 187, 233, 1) 0%,
+		rgba(14, 163, 226, 1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(76, 187, 233, 1) 0%,
+		rgba(14, 163, 226, 1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(   startColorstr='#4cbbe9',
+		endColorstr='#0ea3e2', GradientType=0); /* IE6-8 */
+}
+
+.templateDiv ul {
+	float: left;
+	width: 100%;
+	padding: 20px 0 20px 3%;
+}
+
+.templateDiv ul li {
+	float: left;
+	width: 26%;
+	margin: 0 1.5%;
+	list-style: none;
+}
+
+.templateDiv ul li label,.templateDiv ul li select {
+	float: left;
+	width: 100%;
+	/*  font-weight: bold; */
+}
+
+.templateDiv ul li input[type=button] {
+	margin-top: 26%;
+	width: 100%;
+	height: 100%
+}
+
+.templateDiv ul li.search_btn {
+	width: 65px !important;
+	height: 30px !important;
+}
+
+.templateErrorMsg {
+	width: 100%;
+	float: left;
+	min-height: 40px;
+	line-height: 40px;
+}
+
+.templetBodyDiv {
+	width: 100%;
+	float: left;
+	border: 1px solid #cccccc;
+	background: #ffffff;
+	height: 600px;
+	overflow: auto;
+}
+
+.backToTemplate {
+	background: url(../images/back.png) no-repeat left;
+	padding: 8px 18% 8px 18px;
+	text-decoration: underline;
+	color: #2CAEE5;
+}
+
+.backToTemplate:hover {
+	color: #2CAEE5;
+	text-decoration: none;
+}
+
+.templetBodyHeader {
+	width: 100%;
+	float: left;
+	background: #f9f9f9;
+	line-height: 45px;
+	border-bottom: 1px solid #cccccc;
+	border-top: 1px solid #cccccc;
+	font-size: 18px;
+	padding: 0% 2%;
+}
+
+.templetBodyDiv .section {
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 2%;
+}
+
+.templetBodyDiv .section ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	width: 50%;
+	float: left;
+}
+
+.templetBodyDiv .section ul li {
+	width: 96%;
+	float: left;
+	padding: 0% 2%;
+}
+
+.templetBodyDiv .section ul li label {
+	float: left;
+	width: 20%;
+	text-align: right;
+}
+
+.templetBodyDiv .section ul li textarea {
+	float: left;
+	width: 78%;
+	margin-left: 2%;
+	/* resize: none; */
+}
+
+.templetBodyDiv h3 {
+	width: 96%;
+	float: left;
+	margin: 0% 2% 2% 2%;
+	color: #2793c1;
+	padding: 5px 0px;
+}
+
+.templetBodyDiv h2 {
+	width: 96%;
+	float: left;
+	margin: 0% 2% 2% 2%;
+	padding: 5px 0px;
+	font-size: 16px;
+}
+
+.templateBottom {
+	width: 100%;
+	float: left;
+	padding: 20px 0 20px 5%;
+	border: 1px solid #cccccc;
+	border-top: none;
+}
+
+.templateButtons {
+	width: 100%;
+	float: left;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border: 1px solid #cccccc;
+	border-top: none;
+}
+
+.templateButtons ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.templateButtons li {
+	margin-left: 40%;
+}
+
+.templateButtons li {
+	margin-left: 40%;
+}
+
+.templateErrorMsg span {
+	width: 100%;
+	float: left;
+	color: red;
+	font-size: 16px;
+}
+
+.templateError {
+	color: #FF0000;
+	margin-left: 2%;
+	margin-top: -10px;
+}
+
+.templateLbl {
+	/* color:  #F7F7F7; */
+	
+}
+/* *********************** Template end  here***************************** */
+
+/************Tool tip*************/
+body .ui-tooltip {
+	border-width: 2px;
+}
+
+.ui-tooltip,.arrow:after {
+	background: black;
+	border: 2px solid white;
+}
+
+.ui-tooltip {
+	padding: 10px 20px;
+	position: absolute;
+	color: white;
+	border-radius: 20px;
+	box-shadow: 0 0 7px black;
+	width: 21%;
+	font-size: 14px;
+}
+
+.arrow {
+	width: 70px;
+	height: 16px;
+	overflow: hidden;
+	position: absolute;
+	left: 50%;
+	margin-left: -35px;
+	bottom: -16px;
+}
+
+.arrow.top {
+	top: -16px;
+	bottom: auto;
+}
+
+.arrow.left {
+	left: 20%;
+}
+
+.arrow:after {
+	content: "";
+	position: absolute;
+	left: 20px;
+	top: -20px;
+	width: 25px;
+	height: 25px;
+	box-shadow: 6px 5px 9px -9px black;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	tranform: rotate(45deg);
+}
+
+.arrow.top:after {
+	bottom: -20px;
+	top: auto;
+}
+
+/* *********************** Report start ***************************** */
+#Nonportfolio table td {
+	padding-bottom: 1em;
+}
+
+#portfolio table td {
+	padding-bottom: 1em;
+}
+
+.indices-autocomplete {
+	background-color: #FFFFFF;
+	border-style: solid;
+	z-index: 1000;
+	border-width: 1px;
+	display: none;
+	position: absolute;
+	right: 27.6%;
+	top: 155px;
+	width: 25.3%;
+}
+
+.reportErrorMsg {
+	color: red;
+	padding: 1% 0 0 0%;
+}
+
+#indices {
+	width: 25%;
+}
+
+.risk_return {
+	margin: 15px 0 0 4.5%;
+}
+
+.risk_return tr td {
+	padding-bottom: 5px;
+}
+
+.perform_return {
+	margin: 15px 0 0 3%
+}
+.risk_return_Non {
+	margin: 15px 0 0 4.5%;
+}
+
+.risk_return_Non tr td {
+	padding-bottom: 5px;
+}
+
+.perform_return_Non {
+	margin: 15px 0 0 3%
+}
+
+.Mandatory{
+	
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
+	color: #4D4D4D;
+	font-size: 14px;
+	margin: 9px auto 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+	width: 91%;
+}
+/* *********************** Report End ***************************** */
+
+/*AutoComplate Search Text*/
+.index-autocomplete {
+	background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    display: none;
+    left: 60.8%;
+    position: absolute;
+    top: 65px;
+     width: 25.3%;
+    z-index: 1000;
+}
+.indexcreation-autocomplete {
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    display: none;
+    position: absolute;
+    right: 11.5%;
+    top: 98px;
+    width: 25.3%;
+    z-index: 1000;
+}
+
+.pdfindex-autocomplete {
+	background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    display: none;
+    left: 45%;
+    position: absolute;
+    top: 134px;
+     width: 20.3%;
+    z-index: 1000;
+    overflow-x:hidden;
+}
+
+.highlightIndex {
+	background: black;
+	cursor: pointer;
+	color: white;
+}
+
+.backCasted,.backTested {
+	display: none;
+}
+
+.noRecordes {
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 2%;
+	padding-top: 8%;
+	text-align: center;
+}
+
+.listOfIndex {
+	/*height: 100%;*/
+	-moz-columns: 4 225px;
+	-webkit-columns: 4 200px;
+	columns: 4 200px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.listOfIndex .orderedIndexes {
+	list-style: none;
+}
+
+.no-border {
+	border: none !important;
+}
+
+.disclaimer {
+	float: left;
+	width: 100%;
+	padding: 15px;
+	padding-top: 0;
+}
+
+.disclaimer ul {
+	float: left;
+	width: 100%;
+	list-style: none;
+}
+
+.disclaimer ul li {
+	float: left;
+	width: 65%;
+	font-size: 16px;
+	/* color:#656668; */
+}
+
+.disclaimerErrorMsg {
+	color: #FF0000;
+	margin-left: 2%;
+	margin-top: -10px;
+}
+
+.perform {
+	float: left;
+	margin-right: 2%;
+}
+
+.perform1 {
+	margin-right: 2%;
+	margin-left: 4%;
+}
+
+.disclaimer ul li textarea {
+	width: 57% !important;
+	margin-top: 10px;
+	/* resize: none; */
+}
+
+.index_message {
+	background: none repeat scroll 0 0 #F4F4F4;
+	border: 1px solid #CCCCCC;
+	color: #4D4D4D;
+	font-size: 14px;
+	margin: 10px auto 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 53%;
+}
+
+.addMoreIndex {
+	color: #2CAEE5;
+	margin-right: 2%;
+	margin-left: 2%;
+	padding: 1px 0 0 20px;
+	text-decoration: underline;
+	background: url(../images/index-btn.png) no-repeat left;
+}
+
+.addMoreIndex:hover {
+	color: #2CAEE5;
+	text-decoration: none;
+}
+
+ul.orderedIndexes li {
+	margin-bottom: 10px;
+}
+
+ul.orderedIndexes li input[type="checkbox"] {
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+table#indexSection tr td input[type="checkbox"] {
+	margin-right: 5px;
+}
+
+table#indexSection tr td {
+	font-size: 12px;
+	padding-bottom: 5px;
+	padding-left: 3%;
+	padding-top: 5px;
+}
+
+input#allIndex {
+	width: 25%;
+}
+
+#divIndexList {
+	float: left;
+	margin-top: 10px;
+	width: 100%;
+	border: 1px solid #ccc;
+	height: 600px;
+	overflow: auto;
+}
+/* *********************** Download start ***************************** */
+.pdfPage h3 {
+	float: left;
+	margin: 10px 0;
+	width: 100%;
+}
+
+.download {
+	float: left;
+	width: 100%;
+	border: 1px solid #cccccc;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-ms-border-radius: 6px;
+}
+
+.indices {
+	float: left;
+	padding-left: 10px;
+}
+
+.indices input {
+	width: 200px;
+	float: left;
+}
+
+.type {
+	float: left;
+	padding-left: 20px;
+}
+
+.language {
+	float: left;
+	padding-left: 20px;
+}
+
+.date {
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.pdfsearch {
+	padding-top: 24px;
+}
+
+.pdfsearch input[type=button] {
+	height: 30px;
+	width: 70px;
+}
+
+.downloadlist label {
+	padding-top: 5px;
+	padding-left: 2px;
+	width: 200px;
+	'
+}
+
+.downloadlist select {
+	width: 200px;
+}
+
+.pdf {
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 1px;
+	display: none;
+	position: absolute;
+	left: 45%;
+	top: 135px;
+	width: 20.1%;
+	z-index: 1000;
+}
+.category-autocomplete{
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    display: none;
+    left: 19%;
+    position: absolute;
+    top: 44px;
+    width: 21.7%;
+    z-index: 1000;
+}
+.symbolname-autocomplete{
+	background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    display: none;
+    left: 18.8%;
+    position: absolute;
+    top: 117px;
+    width: 22.7%;
+    z-index: 1000;
+}
+.currencyname-autocomplete{
+	background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    display: none;
+    left: 18.8%;
+    position: absolute;
+    top: 153px;
+    width: 22.7%;
+    z-index: 1000;
+}
+.benchmarkname-autocomplete{
+	background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    display: none;
+    left: 71.5%;
+    position: absolute;
+    top: 71px;
+    width: 22.7%;
+    z-index: 1000;
+}
+
+.loadingImage {
+	display: none;
+	border: 0 none;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	z-index: 99999;
+}
+
+.pdficon {
+	display: block;
+	width: 40px;
+	height: 30px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.downloadAll {
+	padding-right: 2px;
+	padding-bottom: 8px;
+	float: right;
+	background: url(../images/downloadAll.png) no-repeat left;
+}
+
+.downloadAll a {
+	padding: 10px 10px 10px 40px;
+	border: 1px solid;
+	border-radius: 8px;
+	color: #2CAEE5;
+}
+
+/* *********************** Download end ***************************** */
+
+/* *********************** Audit screen start here ***************************** */
+.auditDate table tr td select {
+	width: 20px;
+}
+
+.auditPdfsearch input[type=button] {
+	height: 30px;
+	width: 70px;
+}
+
+.auditIndices {
+	float: left;
+	padding-left: 10px;
+}
+
+.auditIndices input {
+	width: 200px;
+	float: left;
+}
+
+.auditType {
+	float: left;
+	padding-left: 10px;
+}
+
+.auditLanguage {
+	float: left;
+	padding-left: 10px;
+}
+
+.auditGeneratedDate {
+	float: left;
+	padding-left: 11px;
+	padding-right: 20px;
+}
+
+.auditPdfsearch {
+	padding-top: 24px;
+}
+
+.auditIndex-autocomplete {
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 1px;
+	display: none;
+	position: absolute;
+	left: 43%;
+	top: 105px;
+	width: 20.1%;
+	z-index: 1000;
+}
+
+/* *********************** Audit screen start here ***************************** */
+
+/* *********************** File upload start here ***************************** */
+#preview {
+	background-color: #fff;
+	float: left;
+	width: 200px;
+	margin: 2% 2% 2% 10%;
+	border:  solid #2CAEE5;
+}
+
+#error {
+	color: red;
+}
+
+#file_browse_wrapper {
+	padding: 0 0 1em;
+}
+
+#file_browse_wrapper label {
+	width: 140px;
+}
+
+.file-upload {
+	margin-top: 7px;
+	overflow: hidden;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #2CAEE5;
+	border: 1px solid #AED0EA;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.file-upload input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	font-size: 70px;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+	cursor: pointer;
+}
+
+.file-upload span {
+	color: #FFFFFF;
+	font-size: 14px; 
+	float: left;
+    margin-top: 7px;
+    padding-top: 2px;
+    text-align: center;
+    width: 140px;
+}
+.file-upload {
+	height: 35px;
+}
+
+.removeBtn{
+	display:none;
+	cursor:pointer;
+	background: url(../images/removeIcon.png) no-repeat left;
+	height: 24px;
+	width:24px;
+}
+
+/* *********************** File upload end here ***************************** */
+
+/* *********************** Captcha start here ***************************** */
+.btnrefresh{
+	background: url(../images/refresh.png) no-repeat left;
+	height: 40px;
+    width: 22px;
+    cursor: pointer;
+}
+
+.lblCaptcha{
+	color:#F7F7F7;
+    border-radius: 12px;
+    float: left;
+    font-family: Georgia;
+    font-size: 14px;
+    font-weight: bolder;
+    height: 40px;
+    padding: 11px;
+    text-align: center;
+    width: 200px;
+    background: #333333;
+}
+
+/* *********************** Captcha end here ***************************** */
+/* *********************** Template Menu Starts here ***************************** */
+/*------------User info ------*/
+.welcomeAdminTemp {
+	color: #f7f7f7;
+    float: left;
+    font-size: 12px;
+    line-height: 44px;
+    padding: 0 1px;
+    text-transform: uppercase;
+}
+
+.TempwelcomeText {
+    background: url("../images/arrow.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+    border-left: 0 solid #34bbee;
+    float: left;
+    font-size: 12px;
+    line-height: 26px;
+    margin-right: 5px;
+    padding: 9px 13px 10px 5px;
+}
+.welcomeAdminTemp .menu-info {
+    background: none repeat scroll 0 0 #4a4a4a;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+    line-height: 19px;
+    list-style: outside none none;
+    position: absolute;
+    top: 32px;
+    width: 145px;
+    z-index: 999;
+}
+
+#templateshowList > ul{
+	right: 809px;
+}
+#reportShowList > ul {
+	right: 719px;
+}
+#auditShowList > ul {
+	right: 629px;
+}
+#downloadShowList > ul{
+	right: 504px;
+}
+
+.welcomeAdminTemp .menu-info:after {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #fff;
+    border-style: solid;
+    border-width: 0 8px 6px;
+    content: "";
+    position: absolute;
+	right: 20%;
+    top: -7px;
+}
+/* Navigation menu */
+.submenuid ul {
+	float: left;
+	margin: 0;
+}
+
+.submenuid ul li {
+	float: left;
+	list-style: none;
+}
+
+.submenuid ul li a {
+	float: left;
+	color: #f7f7f7;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 0 15px;
+ 	line-height: 25px;
+}
+
+.submenuid ul li.active a,#navigation ul li a:hover {
+	background: #4a4a4a;
+}
+/* Navigation menu */
+
+#navigation {
+	display: block;
+	text-align: center;
+}
+
+.welcomeAdminTemp .menu-info li {
+	border-top: 1px solid #333333;
+	font-size: 12px;
+	padding: 3px 10px;
+}
+
+.welcomeAdminTemp .menu-info li a {
+	display: block;
+	line-height: 1.7em !important;
+}
+
+.welcomeAdminTemp .menu-info li:first-child {
+	border-top: 0 none;
+}
+
+.welcomeAdminTemp .menu-info.show {
+	display: block;
+}
+
+.TempwelcomeAdmin {
+	float: right;
+	margin-top: 20px;
+	line-height: 22px;
+	position: relative;
+}
+
+.TempwelcomeAdmin .TemplateMenu {
+	position: absolute;
+	background: none repeat scroll 0 0 #FFFFFF;
+	list-style: none outside none;
+	position: absolute;
+	top: 32px;
+	border-radius: 5px;
+	border: solid 1px #ccc;
+	display: none;
+	right: 0;
+	top: 32px;
+	width: 145px;
+	z-index: 999;
+}
+
+.welcomeAdminTemp .TemplateMenu li {
+	border-top: 1px solid #CCCCCC;
+	font-size: 12px;
+	padding: 3px 20px;
+}
+
+.welcomeAdminTemp .TemplateMenu li a {
+	display: block;
+}
+
+.welcomeAdminTemp .TemplateMenu li:first-child {
+	border-top: 0 none;
+}
+
+.welcomeAdminTemp .TemplateMenu.show {
+	display: block;
+}
+/* *********************** Template Menu Ends here ***************************** */
+
+
