@@ -11,7 +11,7 @@ import com.google.gson.JsonPrimitive;
 import com.google.gson.JsonSerializationContext;
 import com.google.gson.JsonSerializer;
 
-public class AbstractElementAdapter implements JsonSerializer<AbstractElement>,
+public class AbstractElementAdapter implementsdd JsonSerializer<AbstractElement>,
 		JsonDeserializer<AbstractElement> {
 
 	@Override
